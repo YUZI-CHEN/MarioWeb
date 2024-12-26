@@ -1,0 +1,20 @@
+@use 'reset';
+@use 'variable' as*;
+#topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#banner{
+  height: 100vh;
+  background-image: 
+  url(../images/bg-pattern-logos.png),linear-gradient ( $primary-color 16%,$secondary-color 76% );
+}
+
+
+
+footer{
+  background-color: $secondary-color;
+
+}

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*檔案名稱前加「_」部會另外匯出其他檔案  */
 html,
 body,
@@ -81,20 +80,20 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* 重置字體 */
 body {
-  font-family: sans-serif;
-  line-height: 1.2;
+    font-family: sans-serif;
+    line-height: 1.2;
 }
 
 /* 重置標題 */
@@ -104,43 +103,26 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 /* 重置列表 */
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 /* 重置圖片 */
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
 }
 
 /* 重置連接 */
 a {
-  /* a通常用區塊，有特殊狀況才會改為inline */
-  /* 將a預設的inline改為block，才能設定間距及寬高 */
-  display: block;
-  color: gray;
-  text-decoration: none;
+    /* a通常用區塊，有特殊狀況才會改為inline */
+    /* 將a預設的inline改為block，才能設定間距及寬高 */
+    display: block;
+    color: gray;
+    text-decoration: none;
 }
-
-/* 主色調 */
-/* 輔助色調 */
-#topbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-#banner {
-  height: 100vh;
-  background-image: url(../images/bg-pattern-logos.png), linear-gradient #e70112 16%, #b20722 76%;
-}
-
-footer {
-  background-color: #b20722;
-}/*# sourceMappingURL=style.css.map */
