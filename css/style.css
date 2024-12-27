@@ -167,6 +167,9 @@ body {
   display: block;
   font-size: 1.8rem;
 }
+#banner .content p {
+  font-size: 1.4rem;
+}
 
 footer {
   background-color: #b20722;
