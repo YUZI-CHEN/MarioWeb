@@ -4,6 +4,8 @@ $black: #070707;
 $deep: #1a1a1a;
 $deep-grey: #302f2f;
 
+$light:#fff0f0;
+
 
 /* 主色調 */
 $primary-color: #e70112; //紅色
@@ -12,3 +14,51 @@ $primary-color: #e70112; //紅色
 $secondary-color: #b20722; //深紅色
 $secondary-color2: #bc00b7; // 紅紫色
 $secondary-color3:#23b2ff; //藍色
+
+
+// 間距
+$interval-s: 10px;
+$interval-m: 16px;
+$interval-l: 24px;
+$interval-xxxl:48px;
+//rem
+$interval-rem-s:.65rem;
+$interval-rem-l: 1.5rem;
+$interval-rem-m:1rem;
+
+
+$interval-x-s: 0 10px;
+
+$interval-x-m: 0 20px;
+
+$interval-yy-m:10px 0;
+$interval-yy-l:16px 0;
+
+$interval-heading:2rem 0 1rem;
+
+
+// label間距
+$interval-y-m: 24px  0  8px 0;
+$interval-x-center:20px auto;
+
+$interval-xy-2: 20px 15px;
+$interval-xy-l: 20px 50px;
+
+// 字體
+
+$font-en: "Catamaran", serif;
+$font-hn:"Noto Sans HK", serif;
+
+
+// 字級
+$font-size-xs:.8rem;
+$font-size-s:.85rem;
+$font-size-m:1rem;
+$font-size-l:1.2rem;
+$font-size-xl:1.4rem;
+$font-size-xxl:1.8rem;
+$font-size-xxxl:2rem;
+$font-size-ex:11rem;
+// 字重
+$font-w-bold:600;
+$font-w-bold-1:800;

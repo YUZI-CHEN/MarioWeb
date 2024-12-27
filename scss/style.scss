@@ -1,20 +1,53 @@
 @use 'reset';
 @use 'variable' as*;
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap');
+
+body{
+  font-family: $font-en;
+  color: $light;
+}
 #topbar {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-#banner{
+#banner {
+  display: flex;
   height: 100vh;
-  background-image: 
-  url(../images/bg-pattern-logos.png),linear-gradient ( $primary-color 16%,$secondary-color 76% );
+  background-image:
+    url(../images/bg-pattern-logos.png), linear-gradient($primary-color 16%, $secondary-color 76%);
+
+  >div {
+    flex: 1;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+
+    h1 {
+      color: $light;
+      font-size:$font-size-ex;
+      font-weight: $font-w-bold-1;
+      line-height: 1;
+
+      span{
+        display: block;
+        font-size: $font-size-xxl;
+      }
+
+    }
+
+  }
 }
 
 
 
-footer{
+footer {
   background-color: $secondary-color;
 
 }
